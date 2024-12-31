@@ -8,7 +8,9 @@ function App() {
 
   return (
     <>
-      <h1>Hello World</h1>
+      <img src="src/assets/react.svg" alt="" />
+      <label htmlFor="name">Nome: </label>
+      <input type="text" value={name} />
     </>
   )
 }
